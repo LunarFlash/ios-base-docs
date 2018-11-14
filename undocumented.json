@@ -1,62 +1,6 @@
 {
   "warnings": [
     {
-      "file": "/Users/Terry/Documents/Accenture/ios-base/ios-base/AppDelegate.swift",
-      "line": 12,
-      "symbol": "AppDelegate",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Terry/Documents/Accenture/ios-base/ios-base/AppDelegate.swift",
-      "line": 14,
-      "symbol": "AppDelegate.window",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Terry/Documents/Accenture/ios-base/ios-base/AppDelegate.swift",
-      "line": 17,
-      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Terry/Documents/Accenture/ios-base/ios-base/AppDelegate.swift",
-      "line": 22,
-      "symbol": "AppDelegate.applicationWillResignActive(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Terry/Documents/Accenture/ios-base/ios-base/AppDelegate.swift",
-      "line": 27,
-      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Terry/Documents/Accenture/ios-base/ios-base/AppDelegate.swift",
-      "line": 32,
-      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Terry/Documents/Accenture/ios-base/ios-base/AppDelegate.swift",
-      "line": 36,
-      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Terry/Documents/Accenture/ios-base/ios-base/AppDelegate.swift",
-      "line": 40,
-      "symbol": "AppDelegate.applicationWillTerminate(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/Terry/Documents/Accenture/ios-base/ios-base/Demo TableView/CardCell.swift",
       "line": 15,
       "symbol": "CardCell.cardView",
@@ -71,37 +15,44 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Terry/Documents/Accenture/ios-base/ios-base/Demo TableView/CardCell.swift",
-      "line": 24,
-      "symbol": "CardCell.setupUI()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/Terry/Documents/Accenture/ios-base/ios-base/Demo TableView/DemoTableViewController.swift",
-      "line": 20,
+      "line": 21,
       "symbol": "DemoTableViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Terry/Documents/Accenture/ios-base/ios-base/Demo TableView/DemoTableViewController.swift",
-      "line": 26,
+      "line": 27,
       "symbol": "DemoTableViewController.numberOfSections(in:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Terry/Documents/Accenture/ios-base/ios-base/Demo TableView/DemoTableViewController.swift",
-      "line": 30,
+      "line": 31,
       "symbol": "DemoTableViewController.tableView(_:numberOfRowsInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Terry/Documents/Accenture/ios-base/ios-base/Demo TableView/DemoTableViewController.swift",
-      "line": 34,
+      "line": 35,
       "symbol": "DemoTableViewController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Terry/Documents/Accenture/ios-base/ios-base/Demo TableView/DemoTableViewController.swift",
+      "line": 43,
+      "symbol": "DemoTableViewController.collectionSkeletonView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Terry/Documents/Accenture/ios-base/ios-base/Demo TableView/DemoTableViewController.swift",
+      "line": 47,
+      "symbol": "DemoTableViewController.collectionSkeletonView(_:cellIdentifierForRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     }

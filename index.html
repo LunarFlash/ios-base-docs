@@ -13,7 +13,7 @@
     <a title="  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html"> Docs</a> (61% documented)</p>
+        <p><a href="index.html"> Docs</a> (74% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -29,9 +29,6 @@
           <li class="nav-group-name">
             <a href="Classes.html">Classes</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="Classes/AppDelegate.html">AppDelegate</a>
-              </li>
               <li class="nav-group-task">
                 <a href="Classes/CardCell.html">CardCell</a>
               </li>
@@ -62,10 +59,14 @@
             
             <h1 id='ios-base-project-readme' class='heading'>iOS Base Project Readme</h1>
 
-<p>The base project is a great way to start new iOS projects. It includes some of the best and most popular cocoapod libraries available. We have also included some sample codes for good design patterns and documentation. </p>
+<p>The base project is a great way to start new iOS projects. It includes some of the best and most popular cocoapod libraries available. </p>
+
+<p>We have also included some sample codes for good design patterns and documentation. </p>
 <h2 id='how-to-use' class='heading'>How to use?</h2>
 
-<p>You can rename the project, or simply use the podfile when starting your own new projects. </p>
+<p>You can rename the project, or simply use the podfile when starting your own new projects.</p>
+
+<p><img src="https://raw.githubusercontent.com/LunarFlash/MyMedia/master/appvideo.gif" alt="demo"></p>
 <h2 id='cocoapods' class='heading'>Cocoapods</h2>
 <h4 id='a-href-https-github-com-swifterswift-swifterswift-swifterswift-a' class='heading'><a href="https://github.com/SwifterSwift/SwifterSwift">SwifterSwift</a></h4>
 
@@ -73,7 +74,7 @@
 <h4 id='a-href-https-github-com-onevcat-kingfisher-kingfisher-a' class='heading'><a href="https://github.com/onevcat/Kingfisher">Kingfisher</a></h4>
 
 <p>Lightweight and powerful image caching and networking library. It works very well with table view and collection view cells.</p>
-<h3 id='other-useful-cocoapods' class='heading'>Other useful cocoapods</h3>
+<h2 id='other-useful-cocoapods' class='heading'>Other useful cocoapods</h2>
 
 <p>The following cocoapods are in the podfile but commented out.</p>
 <h4 id='a-href-https-github-com-alamofire-alamofire-alamofire-a' class='heading'><a href="https://github.com/Alamofire/Alamofire">Alamofire</a></h4>
@@ -84,6 +85,9 @@
 <p><img src="https://camo.githubusercontent.com/f5211ae92678aa22b6edf2d18e08b0dce63bcaa4/68747470733a2f2f63646e2e7261776769742e636f6d2f6c6b7a68616f2f4865726f2f656262336632632f5265736f75726365732f6665617475726573322e737667" alt="hero"></p>
 
 <p>Elegant transition library for iOS &amp; tvOS</p>
+<h4 id='a-href-https-github-com-juanpe-skeletonview-skeletonview-a' class='heading'><a href="https://github.com/Juanpe/SkeletonView">SkeletonView</a></h4>
+
+<p>An elegant way to show users that something is happening while prepareing to load content.</p>
 <h4 id='a-href-https-realm-io-docs-swift-latest-realm-a' class='heading'><a href="https://realm.io/docs/swift/latest/">Realm</a></h4>
 
 <p>Mobile database: a replacement for Core Data &amp; SQLite</p>
@@ -92,10 +96,15 @@
 <p>End to end mobile backend as a service.</p>
 <h4 id='a-href-https-github-com-thii-fontawesome-swift-fontawesome-a' class='heading'><a href="https://github.com/thii/FontAwesome.swift">FontAwesome</a></h4>
 
-<p>Largest icons library, supports dynamic sizes and storyboard</p>
+<p>Largest icons library, supports dynamic sizes and storyboard.</p>
+<h4 id='a-href-https-github-com-p2-oauth2-oauth2-a' class='heading'><a href="https://github.com/p2/OAuth2">OAuth2</a></h4>
+
+<p>OAuth2 framework to simplify implementation of OAuth. Also consider <a href="https://auth0.com/">Auth0</a> to manage more complex authentication schemes. </p>
 <h2 id='documentation' class='heading'>Documentation</h2>
 
-<p>Use markdown in your code to write good inline comments. Then use Jazzy to auto generate beautiful documentation. </p>
+<p>It is important to have good documentation. Especially for onboarding new developers. Use markdown in your code to write good inline comments. Then use Jazzy to auto generate beautiful <a href="https://lunarflash.github.io/ios-base-docs/">documentation</a>.</p>
+<pre class="highlight plaintext"><code>$jazzy --min-acl internal
+</code></pre>
 <h2 id='design-patterns' class='heading'>Design patterns</h2>
 
 <p>Software design patterns enable more organized and usable code. Expand beyond Model View Controller (MVC) as needed.</p>
@@ -129,9 +138,18 @@ Xcode instruments allow you to profile and identify problems. Time profiler help
 Jenkins and Fastlane is a proven combination</p>
 <h2 id='general-tips' class='heading'>General tips</h2>
 
-<p><img src="https://www.appcoda.com/wp-content/uploads/2018/07/arc-strong-weak-unowned.png" alt="memory management">
-Avoid retain cycles by <a href="https://www.appcoda.com/memory-management-swift/">understanding references types</a> (string, weak, unowned).</p>
-<h2 id='arkit' class='heading'>ARKit</h2>
+<p><img src="https://www.appcoda.com/wp-content/uploads/2018/07/arc-strong-weak-unowned.png" alt="memory management"></p>
+
+<ul>
+<li><p>Avoid retain cycles by <a href="https://www.appcoda.com/memory-management-swift/">understanding references types</a> (string, weak, unowned).</p></li>
+<li><p>Use higher order functions: Filter, Map, Reduce, flatmap
+<img src="https://cdn-images-1.medium.com/max/1600/1*lsXoBByGHYmviv5uaDyycQ.png" alt="reduce"></p>
+
+<ul>
+<li>Flatmap is a great way to handle optionals because it ignores nil.</li>
+</ul></li>
+</ul>
+<h2 id='a-href-https-developer-apple-com-documentation-arkit-building_your_first_ar_experience-arkit-a' class='heading'><a href="https://developer.apple.com/documentation/arkit/building_your_first_ar_experience">ARKit</a></h2>
 
 <ul>
 <li><a href="https://www.appcoda.com/arkit-persistence/">Saving and restoring</a> an AR world session across devices.
@@ -165,7 +183,7 @@ if let worldMap = worldMap {
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-11-13)</p>
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-11-14)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
